@@ -20,12 +20,41 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p::first-letter{
+    color: maroon;
+    font-size: larger;
+}
+
 header {
     color: tomato;
 }
 
 content {
     color: violet;
-    font-size: 30px;
+    font-size: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1.warning, note{
+    color: blue;
+    background-color: lightgrey;
+}
+
+#note1{
+    color: lightsalmon;
+}
+
+.comment{
+    color: maroon;
+    border: 4px solid mediumaquamarine;
+    padding: 5px;
+    background-color: mistyrose;
+}
+
+article > p{
+    font-weight: bold;
+    color: olive;
+    border:4px solid orangered;
+    padding: 4px;
+    background-color: lightyellow;
 }

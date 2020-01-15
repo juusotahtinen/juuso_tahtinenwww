@@ -1,0 +1,35 @@
+.flexContainer{
+    display: flex;
+    background-color: rgb(85, 240, 235);
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flexContainer > div, .flexcolumn > div {
+    background-color: moccasin;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    width: fit-content;
+}
+
+.flexcolumn {
+    display: flex;
+    background-color: olive;
+    flex-direction: column;
+    border: 4px solid orangered;
+}
+
+.box {
+    float: right;
+    width: 200px;
+    margin-left: 20px;
+    background-color: pink;
+    min-height: 400px;
+}
+
+header, footer{
+    height: 100px;
+    background-color: pink;
+}
