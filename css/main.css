@@ -8,6 +8,13 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+        color: rgb(20, 68, 224);
+        font-family: monospace;
+        font-size: 30px;
+}
+
+
 p {
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
