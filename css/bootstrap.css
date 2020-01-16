@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(141, 149, 156);
+}
+
+.container{
+    background-color: linen;
+    max-width: 960px;
+}
+
+.greybg{
+    background-color: lightgrey;
+}
+
+.page-footer{
+    text-align: center;
+}
+
