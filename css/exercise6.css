@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://storage.needpix.com/rsynced_images/background-4232859_1280.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+}
+
+.page-footer{
+    text-align: center;
+}
