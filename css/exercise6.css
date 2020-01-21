@@ -12,6 +12,95 @@ body{
     width: 1110px;
 }
 
-.page-footer{
+
+
+.page-header{
     text-align: center;
 }
+
+.imgContainer{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+.text-block{
+    position: absolute;
+    top: 20px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    opacity: 0.9;
+}
+
+.pContainer{
+    background-color: lightgrey;
+    font-size: 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.pText{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+a{
+    color: rgb(201, 86, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: rgb(25, 0, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 320px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 320px;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    color: rgb(3, 3, 3);
+    text-align: center;
+  }
+
